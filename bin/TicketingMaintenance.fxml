@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TicketingMaintenanceController">
+   <children>
+      <AnchorPane prefHeight="525.0" prefWidth="648.0">
+         <children>
+            <Button alignment="TOP_CENTER" layoutX="61.0" layoutY="46.0" mnemonicParsing="false" onAction="#openTicketing_Create" prefHeight="188.0" prefWidth="229.0" text="Sell tickets">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <effect>
+                  <ColorAdjust />
+               </effect>
+            </Button>
+            <Button alignment="TOP_CENTER" layoutX="354.0" layoutY="46.0" mnemonicParsing="false" onAction="#openTicketing_View" prefHeight="188.0" prefWidth="229.0" text="View all tickets">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_CENTER" layoutX="61.0" layoutY="291.0" mnemonicParsing="false" onAction="#openTicketing_Update" prefHeight="188.0" prefWidth="229.0" text="Update Tickets">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <Button alignment="TOP_CENTER" layoutX="354.0" layoutY="291.0" mnemonicParsing="false" onAction="#openTicketing_Delete" prefHeight="188.0" prefWidth="229.0" text="Delete Tickets">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="103.0" fitWidth="111.0" layoutX="417.0" layoutY="97.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resources/View.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="103.0" fitWidth="111.0" layoutX="120.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resources/Update.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="103.0" fitWidth="111.0" layoutX="417.0" layoutY="352.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resources/Delete.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="103.0" fitWidth="111.0" layoutX="124.0" layoutY="97.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resources/Sell.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

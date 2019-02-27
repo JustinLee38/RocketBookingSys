@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.UpdateAInsuranceController">
+   <children>
+      <AnchorPane prefHeight="505.0" prefWidth="670.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="86.0" layoutX="87.0" layoutY="24.0" opacity="0.55" stroke="BLACK" strokeType="INSIDE" width="518.0" />
+            <Label alignment="CENTER" layoutX="73.0" layoutY="40.0" prefHeight="51.0" prefWidth="541.0" text="Choose which Insurance No to update">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ee6d6d" height="39.0" layoutX="50.0" layoutY="140.0" opacity="0.63" stroke="BLACK" strokeType="INSIDE" width="153.0" />
+            <Label alignment="CENTER" layoutX="50.0" layoutY="140.0" prefHeight="39.0" prefWidth="153.0" text="Insurance No: ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button layoutX="24.0" layoutY="431.0" mnemonicParsing="false" onAction="#printSelection" prefHeight="51.0" prefWidth="177.0" text="Update">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <ComboBox fx:id="insNo" layoutX="239.0" layoutY="140.0" prefHeight="39.0" prefWidth="167.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ee6d6d" height="39.0" layoutX="50.0" layoutY="208.0" opacity="0.63" stroke="BLACK" strokeType="INSIDE" width="153.0" />
+            <Label alignment="CENTER" layoutX="50.0" layoutY="208.0" prefHeight="39.0" prefWidth="153.0" text="Insurer: ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ee6d6d" height="39.0" layoutX="50.0" layoutY="273.0" opacity="0.63" stroke="BLACK" strokeType="INSIDE" width="153.0" />
+            <Label alignment="CENTER" layoutX="50.0" layoutY="273.0" prefHeight="39.0" prefWidth="153.0" text="Insurance Name: ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="insName" layoutX="239.0" layoutY="273.0" prefHeight="39.0" prefWidth="167.0" />
+            <ComboBox fx:id="insurer" layoutX="239.0" layoutY="208.0" prefHeight="39.0" prefWidth="167.0" />
+            <ImageView fitHeight="192.0" fitWidth="205.0" layoutX="464.0" layoutY="299.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resources/Insurance2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

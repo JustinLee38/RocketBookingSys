@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CreateASeatController">
+   <children>
+      <AnchorPane layoutX="-2.0" prefHeight="504.0" prefWidth="604.0">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#bee0ff" height="141.0" layoutX="14.0" layoutY="350.0" stroke="BLACK" strokeType="INSIDE" width="404.0" />
+            <Label layoutX="67.0" layoutY="131.0" text="Seat Type:">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="66.0" layoutY="212.0" text="Seat Food:">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Label layoutX="67.0" layoutY="294.0" text="Seat Description:">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Button layoutX="455.0" layoutY="415.0" mnemonicParsing="false" onAction="#printSelection" prefHeight="44.0" prefWidth="111.0" text="Add">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Label alignment="CENTER" layoutX="4.0" layoutY="26.0" prefHeight="57.0" prefWidth="598.0" text="How many seats do you want to add?" textAlignment="CENTER">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="102.0" layoutX="1.0" opacity="0.27" stroke="BLACK" strokeType="INSIDE" width="604.0" />
+            <ComboBox fx:id="seatType" layoutX="289.0" layoutY="127.0" prefHeight="44.0" prefWidth="152.0" />
+            <ComboBox fx:id="seatFood" layoutX="289.0" layoutY="210.0" prefHeight="44.0" prefWidth="152.0" />
+            <ComboBox fx:id="seatDescription" layoutX="289.0" layoutY="292.0" prefHeight="44.0" prefWidth="152.0" />
+            <Label layoutX="39.0" layoutY="353.0" prefHeight="30.0" prefWidth="381.0" text="Price of seat is based on food selected." underline="true">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="39.0" layoutY="407.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="39.0" layoutY="375.0" prefHeight="30.0" prefWidth="381.0" text="Melt-In-Your-Mouth Baked Chicken $20.9">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="39.0" layoutY="391.0" prefHeight="30.0" prefWidth="381.0" text="Balsamic-Glazed Steak Rolls $25.9">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="39.0" layoutY="407.0" prefHeight="30.0" prefWidth="381.0" text="Baked Shrimp with Orzo and Feta $33.9">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="39.0" layoutY="423.0" prefHeight="30.0" prefWidth="381.0" text="One-Pot Chicken Lo Mein $28.9">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="447.0" layoutY="363.0" mnemonicParsing="false" onAction="#playVideo" prefHeight="40.0" prefWidth="127.0" text="Seat safety video">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Label layoutX="28.0" layoutY="444.0" prefHeight="30.0" prefWidth="381.0" text="*Additional $1000 are charged for flight cost">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
