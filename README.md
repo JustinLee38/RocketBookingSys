@@ -11,7 +11,14 @@ These instructions will get you a copy of the project up and running on your loc
 
 
 ## Examples of frames:
-
+![Alt text](/img/CreateTicket.jpg?raw=true "CreateTicket")
+![Alt text](/img/Seats.jpg?raw=true "Seats")
+![Alt text](/img/SelectSeat.jpg?raw=true "SelectSeat")
+![Alt text](/img/Ticket.jpg?raw=true "Ticket")
+![Alt text](/img/UpdateInsurance.jpg?raw=true "UpdateInsurance")
+![Alt text](/img/ViewTicket.jpg?raw=true "ViewTicket")
+![Alt text](/img/flightDB.jpg?raw=true "flightDB")
+![Alt text](/img/insuranceDB.jpg?raw=true "insuranceDB")
 
 ## Built With
 Javafx - The platform used to create GUI
