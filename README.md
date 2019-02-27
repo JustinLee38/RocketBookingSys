@@ -21,10 +21,10 @@ These instructions will get you a copy of the project up and running on your loc
 ![Alt text](/img/insuranceDB.jpg?raw=true "insuranceDB")
 
 ## Built With
-Javafx - The platform used to create GUI
-MySQL - Accessing and retriving booking records from database
-SceneBuilder - some of the fx frames are built with scenebuilder
-Eclipse - The IDE used for this project
+Javafx - The platform used to create GUI  
+MySQL - Accessing and retriving booking records from database  
+SceneBuilder - some of the fx frames are built with scenebuilder  
+Eclipse - The IDE used for this project  
 
 ## Authors
 Justin Lee & Samuel Ho
