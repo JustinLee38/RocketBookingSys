@@ -10,7 +10,7 @@ four different module that each consist of the 4 basic CRUD (Create, retrieve, u
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 
-## Examples of frames:
+## Examples of a few frames:
 ![Alt text](/img/CreateTicket.jpg?raw=true "CreateTicket")
 ![Alt text](/img/Seats.jpg?raw=true "Seats")
 ![Alt text](/img/SelectSeat.jpg?raw=true "SelectSeat")
