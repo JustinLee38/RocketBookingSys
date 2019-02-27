@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="567.0" prefWidth="678.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Seat_ViewSeatingController">
+   <children>
+      <AnchorPane layoutX="-1.0" layoutY="21.0" prefHeight="487.0" prefWidth="679.0">
+         <children>
+            <ImageView fitHeight="531.0" fitWidth="299.0" layoutX="389.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resources/Ship.png" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="237.0" layoutX="495.0" layoutY="91.0" stroke="WHITE" strokeType="INSIDE" width="71.0" />
+            <Button fx:id="b1" layoutX="478.0" layoutY="117.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="48.0" text=" " />
+            <Button fx:id="b16" layoutX="534.0" layoutY="399.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="48.0" text=" " />
+            <Button fx:id="b3" layoutX="477.0" layoutY="199.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="48.0" text=" " />
+            <Button fx:id="b13" layoutX="536.0" layoutY="279.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="48.0" text=" " />
+            <Button fx:id="b15" layoutX="534.0" layoutY="359.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="48.0" text=" " />
+            <Button fx:id="b7" layoutX="477.0" layoutY="359.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="48.0" text=" " />
+            <Button fx:id="b12" layoutX="536.0" layoutY="239.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="48.0" text=" " />
+            <Button fx:id="b11" layoutX="535.0" layoutY="199.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="48.0" text=" " />
+            <Button fx:id="b2" layoutX="477.0" layoutY="157.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="48.0" text=" " />
+            <Button fx:id="b5" layoutX="478.0" layoutY="279.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="48.0" text=" " />
+            <Button fx:id="b10" layoutX="534.0" layoutY="158.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="48.0" text=" " />
+            <Button fx:id="b14" layoutX="536.0" layoutY="318.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="48.0" text=" " />
+            <Button fx:id="b6" layoutX="477.0" layoutY="318.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="48.0" text=" " />
+            <Button fx:id="b8" layoutX="478.0" layoutY="399.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="48.0" text=" " />
+            <Button fx:id="b4" layoutX="477.0" layoutY="239.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="48.0" text=" " />
+            <Button fx:id="b9" layoutX="535.0" layoutY="116.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="48.0" text=" " />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff99e1" height="56.0" layoutX="75.0" layoutY="203.0" stroke="BLACK" strokeType="INSIDE" width="184.0" />
+            <Label layoutX="91.0" layoutY="209.0" prefHeight="43.0" prefWidth="152.0" text="View All Seats">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="b1a" layoutX="478.0" layoutY="117.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="15.0" text=" ">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@resources/seat.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="b16a" layoutX="534.0" layoutY="399.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="15.0" text=" ">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@resources/seat.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="b8a" layoutX="478.0" layoutY="399.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="15.0" text=" ">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@resources/seat.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="b7a" layoutX="477.0" layoutY="359.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="48.0" text=" ">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@resources/seat.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="b6a" layoutX="477.0" layoutY="318.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="15.0" text=" ">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@resources/seat.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="b5a" layoutX="478.0" layoutY="279.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="15.0" text=" ">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@resources/seat.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="b4a" layoutX="477.0" layoutY="239.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="15.0" text=" ">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@resources/seat.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="b3a" layoutX="477.0" layoutY="199.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="15.0" text=" ">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@resources/seat.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="b2a" layoutX="477.0" layoutY="157.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="15.0" text=" ">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@resources/seat.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="b15a" layoutX="534.0" layoutY="359.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="15.0" text=" ">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@resources/seat.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="b14a" layoutX="536.0" layoutY="318.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="15.0" text=" ">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@resources/seat.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="b13a" layoutX="536.0" layoutY="279.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="15.0" text=" ">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@resources/seat.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="b12a" layoutX="536.0" layoutY="239.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="15.0" text=" ">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@resources/seat.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="b11a" layoutX="535.0" layoutY="199.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="15.0" text=" ">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@resources/seat.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="b10a" layoutX="534.0" layoutY="158.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="15.0" text=" ">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@resources/seat.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="b9a" layoutX="534.0" layoutY="116.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="15.0" text=" ">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@resources/seat.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorInput?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainMenuControllerller">
+   <children>
+      <AnchorPane prefHeight="562.0" prefWidth="592.0">
+         <children>
+            <Button layoutX="32.0" layoutY="73.0" mnemonicParsing="false" onAction="#openSession" prefHeight="61.0" prefWidth="245.0" text="Flight Maintenance">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="314.0" layoutY="167.0" mnemonicParsing="false" onAction="#openInsurance" prefHeight="61.0" prefWidth="245.0" text="Insurance Maintenance">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="314.0" layoutY="73.0" mnemonicParsing="false" onAction="#openSeating" prefHeight="61.0" prefWidth="245.0" text="Seating Maintenance">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="32.0" layoutY="167.0" mnemonicParsing="false" onAction="#openTicketing" prefHeight="61.0" prefWidth="245.0" text="Ticketing Maintenance">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button layoutX="174.0" layoutY="262.0" mnemonicParsing="false" onAction="#openExit" prefHeight="61.0" prefWidth="245.0" text="Exit">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <TextField alignment="CENTER" editable="false" layoutX="251.0" layoutY="492.0" prefHeight="56.0" prefWidth="327.0" text="Customer Hotline - 0199660803 / 0172599389">
+               <effect>
+                  <Lighting diffuseConstant="1.37" specularConstant="0.37" specularExponent="40.0" surfaceScale="0.8">
+                     <bumpInput>
+                        <ColorInput />
+                     </bumpInput>
+                     <light>
+                        <Light.Distant color="#33dbf2" />
+                     </light>
+                  </Lighting>
+               </effect>
+            </TextField>
+            <ImageView fitHeight="212.0" fitWidth="205.0" layoutX="14.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resources/JS.png" />
+               </image>
+            </ImageView>
+         </children>
+         <effect>
+            <Glow level="0.0" />
+         </effect>
+      </AnchorPane>
+      <Label alignment="CENTER" prefHeight="56.0" prefWidth="592.0" text="Welcome to JS Rocket Systems" textAlignment="CENTER">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
